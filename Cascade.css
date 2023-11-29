@@ -1,0 +1,99 @@
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #097969;
+    color: #fff; 
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffd700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li a:visited {
+    color: #8B4513;
+}
+
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #097969;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.picture {
+    flex: 1; 
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+#introduction {
+    flex: 2; 
+}
+
+#contributors {
+    max-width: 80%;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contributor {
+    width: 45%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contributor:nth-child(even) {
+    margin-left: auto;
+}
+
+.contributor img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
